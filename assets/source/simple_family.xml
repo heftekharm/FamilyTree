@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<GenoPro>
+  <Software>GenoPro
+    <Name>GenoPro® - Picture Your Family Tree!(TM)</Name>
+    <Version>2.5.3.8</Version>
+    <Address>http://www.genopro.com</Address>
+  </Software>
+  <Date>25 Jul 2015</Date>
+
+<Global>
+  <Name>
+    <Full Format="%T %F (%N) %M %L (%L2) %S"/>
+    <Display Format="%F %M %L (%L2)" Lines="3"/>
+  </Name>
+  <Font>Arial</Font>
+  <Display>
+    <Tag>YoB_YoD</Tag>
+    <Colors>
+      <Gender Symbol="#000000" Text="#000000" Fill="#FFFFFF">
+        <Fill>
+          <Top Left="#FF0000" Right="#FF0000"/>
+          <Bottom Left="#FF0000" Right="#FF0000"/>
+        </Fill>
+      </Gender>
+      <Border Outline="#6E6EFF">
+        <Fill>#FFFF80</Fill>
+      </Border>
+      <Label Top="#000000" Bottom="#000000">
+        <Fill Top="#FFFFFF" Bottom="#FFFFFF"/>
+      </Label>
+    </Colors>
+  </Display>
+  <ActiveGenoMap>GenoMap1</ActiveGenoMap>
+</Global>
+<GenoMaps>
+<GenoMap Name="GenoMap1" Zoom="95" Position="-33,60" BoundaryRect="-236,36,-59,-148"/>
+<GenoMap Name="GenoMap2"/>
+<GenoMap Name="GenoMap3"/>
+</GenoMaps>
+<Individuals>
+<Individual ID="ind00001">
+  <Name>AAA
+    <Display>AAA</Display>
+    <First>AAA</First>
+  </Name>
+  <Position BoundaryRect="-236,36,-184,-23">-210,10</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00002">
+  <Name>HHH
+    <Display>HHH</Display>
+    <First>HHH</First>
+  </Name>
+  <Position BoundaryRect="-111,36,-59,-23">-85,10</Position>
+  <Gender>F</Gender>
+</Individual>
+<Individual ID="ind00003">
+  <Name>حسين
+    <Display>حسين</Display>
+    <First>حسين</First>
+  </Name>
+  <Position BoundaryRect="-206,-89,-154,-148">-180,-115</Position>
+  <Gender>M</Gender>
+</Individual>
+<Individual ID="ind00004">
+  <Name>SSS
+    <Display>SSS</Display>
+    <First>SSS</First>
+  </Name>
+  <Position BoundaryRect="-151,-89,-99,-148">-125,-115</Position>
+  <Gender>F</Gender>
+</Individual>
+</Individuals>
+<Families>
+<Family ID="fam00001">
+  <Position>-195,-60
+    <Top>
+      <Left>-210,-60</Left>
+      <Right>-85,-60</Right>
+    </Top>
+  </Position>
+</Family>
+</Families>
+<PedigreeLinks>
+<PedigreeLink PedigreeLink="Parent" Family="fam00001" Individual="ind00002"/>
+<PedigreeLink PedigreeLink="Parent" Family="fam00001" Individual="ind00001"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00003"/>
+<PedigreeLink PedigreeLink="Biological" Family="fam00001" Individual="ind00004"/>
+</PedigreeLinks>
+</GenoPro>
